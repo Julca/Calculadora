@@ -8,6 +8,15 @@
 
     <EditText
         android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/pantalla"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="100dp"
         android:id="@+id/resultado"
         android:layout_alignParentTop="true"
@@ -67,7 +76,7 @@
         <Button
             android:layout_width="68dp"
             android:layout_height="wrap_content"
-            android:text="MC"
+            android:text="←"
             android:id="@+id/button6"
             android:layout_row="1"
             android:layout_column="0" />
@@ -91,16 +100,16 @@
         <Button
             android:layout_width="68dp"
             android:layout_height="wrap_content"
-            android:text="MC"
-            android:id="@+id/button9"
+            android:text="±"
+            android:id="@+id/btncambiodesigno"
             android:layout_row="1"
             android:layout_column="3" />
 
         <Button
             android:layout_width="68dp"
             android:layout_height="wrap_content"
-            android:text="MC"
-            android:id="@+id/button10"
+            android:text="√"
+            android:id="@+id/btnraiz"
             android:layout_row="1"
             android:layout_column="4" />
 
@@ -140,7 +149,7 @@
             android:layout_width="68dp"
             android:layout_height="wrap_content"
             android:text="%"
-            android:id="@+id/button15"
+            android:id="@+id/btnporcentaje"
             android:layout_row="2"
             android:layout_column="4" />
 
@@ -180,7 +189,7 @@
             android:layout_width="68dp"
             android:layout_height="wrap_content"
             android:text="1/x"
-            android:id="@+id/button20"
+            android:id="@+id/btninversa"
             android:layout_row="3"
             android:layout_column="4" />
 
